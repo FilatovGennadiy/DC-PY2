@@ -1,9 +1,8 @@
 class Rent:
     """ Базовый класс, описывающий арендадательские компании """
 
-    def __init__(self, name: str, colour: str):
+    def __init__(self, name: str):
         self.name = name  # название арендадательской компании
-        self.colour = colour  # цвет ячеек таблицы
         self.num_element = 0  # число элементов
 
     def add_element(self, num_new_element: int) -> int:  # добавление элементов, который покупатель может арендовать
